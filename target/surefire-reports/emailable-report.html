@@ -9,11 +9,107 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">InetBankingV1</th></tr>
-<tr><td><a href="#t0">BankingApp Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">84,666</td><td></td><td></td></tr>
+<tr><td><a href="#t0">BankingApp Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">49,134</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">InetBankingV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BankingApp Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.inetbanking.testCases.TC_AddCustomerTest_003</td><td><a href="#m0">addNewCustomer</a></td><td rowspan="1">1627385953666</td><td rowspan="1">19805</td></tr><tr class="passedodd"><td rowspan="1">com.inetbanking.testCases.TC_LoginTest_001</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1627385920881</td><td rowspan="1">14672</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">InetBankingV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BankingApp Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.inetbanking.testCases.TC_AddCustomerTest_003</td><td><a href="#m0">setup</a></td><td rowspan="1">1627554763760</td><td rowspan="1">20174</td></tr><tr class="failedodd"><td rowspan="1">com.inetbanking.testCases.TC_LoginTest_001</td><td><a href="#m1">setup</a></td><td rowspan="1">1627554734891</td><td rowspan="1">28538</td></tr><tr><th colspan="4">BankingApp Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.inetbanking.testCases.TC_AddCustomerTest_003</td><td><a href="#m2">tearDown</a></td><td rowspan="1">1627554783948</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.inetbanking.testCases.TC_LoginTest_001</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1627554763755</td><td rowspan="1">0</td></tr><tr><th colspan="4">BankingApp Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.inetbanking.testCases.TC_AddCustomerTest_003</td><td><a href="#m4">addNewCustomer</a></td><td rowspan="1">1627554783946</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.inetbanking.testCases.TC_LoginTest_001</td><td><a href="#m5">loginTest</a></td><td rowspan="1">1627554763741</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>BankingApp Test</h2><h3 id="m0">com.inetbanking.testCases.TC_AddCustomerTest_003#addNewCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.inetbanking.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BankingApp Test</h2><h3 id="m0">com.inetbanking.testCases.TC_AddCustomerTest_003#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-QEV1T8U&apos;, ip: &apos;192.168.43.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:15000/status] to be available after 20008 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 39 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.inetbanking.testCases.TC_LoginTest_001#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-QEV1T8U&apos;, ip: &apos;192.168.43.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:19904/status] to be available after 20066 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 39 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.inetbanking.testCases.TC_AddCustomerTest_003#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.inetbanking.testCases.TC_LoginTest_001#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.inetbanking.testCases.TC_AddCustomerTest_003#addNewCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-QEV1T8U&apos;, ip: &apos;192.168.43.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:15000/status] to be available after 20008 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 39 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.inetbanking.testCases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-QEV1T8U&apos;, ip: &apos;192.168.43.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:19904/status] to be available after 20066 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 39 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

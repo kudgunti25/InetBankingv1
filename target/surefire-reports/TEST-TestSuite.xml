@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="34.474" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="84.784" tests="6" errors="0" skipped="4" failures="2">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="Inetbanking_maven1"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Inetbanking_maven1/2/display/redirect?page=tests"/>
+    <property name="JOB_NAME" value="InetBanking_github2"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/InetBanking_github2/1/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="2"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\Users\Kailesh\.jenkins"/>
-    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
     <property name="HUDSON_SERVER_COOKIE" value="32368b61ee0af71c"/>
-    <property name="POM_ARTIFACTID" value="InetBankingV1"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="InetBankingV1"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\Users\Kailesh\AppData\Local\Temp"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
-    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="ANT_HOME" value="F:\Software\apache-ant-1.9.15"/>
     <property name="user.name" value="Kailesh"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -29,9 +25,9 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Inetbanking_maven1"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Inetbanking_maven1/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="JOB_BASE_NAME" value="InetBanking_github2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/InetBanking_github2/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="OneDrive" value="C:\Users\Kailesh\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\Kailesh\AppData\Local"/>
@@ -42,7 +38,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -59,30 +55,27 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Inetbanking_maven1/2/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/InetBanking_github2/1/display/redirect"/>
     <property name="TMP" value="C:\Users\Kailesh\AppData\Local\Temp"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Inetbanking_maven1/2/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/InetBanking_github2/1/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Inetbanking_maven1/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/InetBanking_github2/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-QEV1T8U"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_181"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="HOMEPATH" value="\Users\Kailesh"/>
-    <property name="POM_PACKAGING" value="jar"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="user.script" value=""/>
     <property name="COMPUTERNAME" value="DESKTOP-QEV1T8U"/>
-    <property name="POM_GROUPID" value="InetBankingV1"/>
     <property name="user.home" value="C:\Users\Kailesh"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Inetbanking_maven1-2"/>
+    <property name="BUILD_TAG" value="jenkins-InetBanking_github2-1"/>
     <property name="JENKINS_SERVER_COOKIE" value="32368b61ee0af71c"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -96,7 +89,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\apache-maven-3.8.1"/>
     <property name="java.class.path" value="C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.8.1\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.8.1/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.8.1\ C:\Users\Kailesh\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53955"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.8.1\ C:\Users\Kailesh\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 58418"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_181/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Kailesh\Downloads\geckodriver.exe;F:\Software\apache-ant-1.9.15\bin;F:\Software\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Python27;C:\apache-maven-3.8.1\bin;C:\apache-maven-3.8.1\\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -112,35 +105,404 @@
     <property name="HUDSON_HOME" value="C:\Users\Kailesh\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\apache-maven-3.8.1\/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Inetbanking_maven1/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/InetBanking_github2/1/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="user.dir" value="E:\Wipro\InetBankingV1"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/Inetbanking_maven1/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/InetBanking_github2/"/>
     <property name="LOGONSERVER" value="\\DESKTOP-QEV1T8U"/>
     <property name="USERDOMAIN" value="DESKTOP-QEV1T8U"/>
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\apache-maven-3.8.1\"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="1"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="170a"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="GIT_COMMIT" value="2cd69428c71b87c0faec01403d0ce7918b6af26a"/>
     <property name="=C:" value="C:\Users\Kailesh"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\Kailesh\.jenkins\workspace\Inetbanking_maven1@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\Kailesh\.jenkins\workspace\Inetbanking_maven1"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Kailesh\.jenkins\workspace\InetBanking_github2@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\Kailesh\.jenkins\workspace\InetBanking_github2"/>
     <property name="maven3.interceptor.common" value="C:\Users\Kailesh\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="GIT_URL" value="https://github.com/kudgunti25/InetBankingv1.git"/>
   </properties>
-  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="14.678"/>
-  <testcase name="addNewCustomer" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="19.796"/>
+  <testcase name="setup" classname="com.inetbanking.testCases.TC_LoginTest_001" time="32.199">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-QEV1T8U&apos;, ip: &apos;192.168.43.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QEV1T8U', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:19904/status] to be available after 20066 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></failure>
+    <system-err><![CDATA[log4j:ERROR Could not instantiate class [org.apche.log4j.HTMLLayout].
+java.lang.ClassNotFoundException: org.apche.log4j.HTMLLayout
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.log4j.helpers.Loader.loadClass(Loader.java:198)
+	at org.apache.log4j.helpers.OptionConverter.instantiateByClassName(OptionConverter.java:327)
+	at org.apache.log4j.helpers.OptionConverter.instantiateByKey(OptionConverter.java:124)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:797)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:395)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.inetbanking.testCases.TC_LoginTest_001" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="52.585">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-QEV1T8U&apos;, ip: &apos;192.168.43.175&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QEV1T8U', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:15000/status] to be available after 20008 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></failure>
+    <system-err><![CDATA[log4j:ERROR Could not instantiate class [org.apche.log4j.HTMLLayout].
+java.lang.ClassNotFoundException: org.apche.log4j.HTMLLayout
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.log4j.helpers.Loader.loadClass(Loader.java:198)
+	at org.apache.log4j.helpers.OptionConverter.instantiateByClassName(OptionConverter.java:327)
+	at org.apache.log4j.helpers.OptionConverter.instantiateByKey(OptionConverter.java:124)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:797)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:395)
+	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+	at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></system-err>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>
